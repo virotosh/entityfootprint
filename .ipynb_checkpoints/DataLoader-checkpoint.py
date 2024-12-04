@@ -1,4 +1,3 @@
-# Zeinab Rezaei Yousefi <<zeinab.rezaeiyousefi@aalto.fi>>.
 # This object loads the log data from the first phase of the user study
 # A data matrix is a matrix with n rows (num_docs) and d columns (num_terms)
 # the terms are themselves grouped in different views (num_views)
@@ -175,10 +174,6 @@ class DataLoader:
         with open('PPL_names.txt', 'w') as outfile:
             json.dump(PPL_names, outfile)
 
-        with open('for_vuong.txt', 'w') as outfile:
-            json.dump(data, outfile)
-
-
 
 class DataLoader_doc:
 
@@ -281,10 +276,6 @@ class DataLoader_doc:
             json.dump(DOC_names, outfile)
         with open('DOC_ids.txt', 'w') as outfile:
             json.dump(DOC_ids, outfile)
-
-
-        with open('for_vuong.txt', 'w') as outfile:
-            json.dump(data, outfile)
 
 
 

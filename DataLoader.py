@@ -174,10 +174,6 @@ class DataLoader:
         with open('PPL_names.txt', 'w') as outfile:
             json.dump(PPL_names, outfile)
 
-        with open('for_vuong.txt', 'w') as outfile:
-            json.dump(data, outfile)
-
-
 
 class DataLoader_doc:
 
@@ -280,10 +276,6 @@ class DataLoader_doc:
             json.dump(DOC_names, outfile)
         with open('DOC_ids.txt', 'w') as outfile:
             json.dump(DOC_ids, outfile)
-
-
-        with open('for_vuong.txt', 'w') as outfile:
-            json.dump(data, outfile)
 
 
 
