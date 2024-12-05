@@ -3,7 +3,7 @@ This is reproduce code for Entity Footprinting: Modeling Contextual User States 
 
 https://dl.acm.org/doi/full/10.1145/3643893
 
-# VAE
+# variational autoencoder (VAE)
 this project uses latent spaces produced from variational autoencoder (VAE)
 
 make sure VAE.py is stored in models folder.
